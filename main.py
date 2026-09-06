@@ -81,9 +81,9 @@ class UniversalCircleMemory:
 if __name__ == "__main__":
     print("=== Universal Circle Memory - LIVE Solari Demo ===")
     brain = UniversalCircleMemory()
-    brain.add_memory("Mom birthday is May 10 - BUY CAKE", "Mom", gravity=0.95, tags=["birthday", "family"])
-    brain.add_memory("Rahul likes black coffee", "Rahul", gravity=0.7, tags=["like"])
-    brain.add_memory("Promise: Help Aakriti with startup pitch by Friday", "Aakriti", gravity=0.9, tags=["promise", "work"])
+    brain.add_memory("Investor Demo Day May 10 - SEND DECK", "Sequoia", gravity=0.95, tags=["birthday", "family"])
+    brain.add_memory("Customer Rahul wants free plan", "Rahul", gravity=0.7, tags=["like"])
+    brain.add_memory("Promise: Send metrics to investor Sarah by Friday", "Sarah", gravity=0.9, tags=["promise", "founder"])
     print("\n--- Testing FORK ---")
     brain.fork_memory("Rahul", "black coffee", "Rahul likes cold brew now")
     print("\n--- Testing GRAVITY ---")
