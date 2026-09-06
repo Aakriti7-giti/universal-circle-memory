@@ -1,36 +1,18 @@
- Universal Circle Memory - A memory required by all
+ Universal Circle Memory - A Memory Required By All
 
+Problem:Everyone forgets — birthdays, promises, likes.
+Solution: One universal memory for your entire circle. Built on Solari.
 
+ Why Universal = Real Impact
+Student, Parent, Founder — everyone needs circle memory.
 
-Everyone forgets important details about people in their life. This project solves a problem that EVERYONE has.
+ Production Ready
+- REAL Solari: pip install solari-ai, if SOLARI_API_KEY set → real cloud
+- GRAVITY: 0.95 Mom birthday > 0.3 random like
+- FORK: Tracks change over time
+- API: uvicorn app:app --reload
+- Docker: docker build . && docker run -p 8000:8000
 
-
-
- The Problem
-
-We forget birthdays, coffee preferences, promises. This hurts relationships.
-
-
-
- The Solution
-
-A universal memory bank for your entire circle with 2 powerful Solari features:
-
- 1. Gravity (Importance)
-
-Not all memories are equal. Mom's birthday = 0.95 gravity (never forget). Random like = 0.3. Recall shows high gravity first.
-
-
-
- 2. Fork (History)
-
-People change. Rahul liked black coffee, now likes cold brew too. Fork keeps old + new version, so you track evolution.
-
-
-
-Demo
-
-```bash
-
+ Quick Start
+pip install -r requirements.txt
 python main.py
-
