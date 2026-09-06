@@ -1,0 +1,4 @@
+solari-ai
+python-dotenv
+fastapi
+uvicorn
